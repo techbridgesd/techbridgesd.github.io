@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  TechBridge SD theme.
+  Light, high-contrast content theme (chosen for senior readability) with a
+  dark navy hero. All colors are HSL CSS custom properties.
+  Brand palette derived from the logo:
+    Navy   #16395c  -> primary
+    Teal   #159fb5  -> accent
+    Gold   #f4a93a  -> highlight / call-to-action accent
+    Gray   #54595f  -> neutral text / secondary
+*/
+@layer base {
+  :root {
+    --background: 210 33% 99%; /* near-white with a cool tint */
+    --foreground: 210 29% 16%; /* deep navy-charcoal text */
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 29% 16%;
+
+    --primary: 207 61% 22%; /* navy #16395c */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 16% 93%; /* light gray surface */
+    --secondary-foreground: 210 12% 28%;
+
+    --muted: 210 20% 96%;
+    --muted-foreground: 210 9% 40%; /* gray #54595f-ish, AA on white */
+
+    --accent: 189 78% 39%; /* teal #159fb5 */
+    --accent-foreground: 0 0% 100%;
+
+    --gold: 36 89% 59%; /* gold #f4a93a */
+    --gold-foreground: 210 40% 12%;
+
+    --destructive: 0 72% 48%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 18% 87%;
+    --input: 210 18% 84%;
+    --ring: 189 78% 39%;
+
+    --radius: 0.625rem;
+
+    --nav-button: 207 61% 22%;
+    --hero-bg: 208 56% 11%; /* darkest navy, nearly black */
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sora antialiased;
+  }
+
+  /* Larger, more legible base type for an older audience. */
+  body {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-semibold tracking-tight text-primary;
+    line-height: 1.15;
+  }
+
+  /* Visible focus outline for keyboard users. */
+  :focus-visible {
+    outline: 3px solid hsl(var(--accent));
+    outline-offset: 2px;
+  }
+}
+
+@layer utilities {
+  .container-tight {
+    @apply mx-auto w-full max-w-5xl px-6;
+  }
+  .container-wide {
+    @apply mx-auto w-full max-w-6xl px-6;
+  }
+}

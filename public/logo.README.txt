@@ -1,0 +1,8 @@
+Drop your TechBridge SD logo here as "logo.png" (this exact filename).
+
+The site currently uses a built-in SVG recreation of the logo so it looks
+correct out of the box. The browser tab icon (favicon) already points to
+/logo.png — once you add the file, the tab icon will use your real logo.
+
+If you also want your PNG to appear in the navbar/footer instead of the SVG,
+open src/components/Logo.tsx and follow the comment at the top of the file.
