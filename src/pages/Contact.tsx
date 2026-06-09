@@ -2,7 +2,6 @@ import { useState, type FormEvent } from "react";
 import {
   Mail,
   MapPin,
-  Facebook,
   Instagram,
   Linkedin,
   CheckCircle2,
@@ -53,7 +52,7 @@ export default function Contact() {
         subtitle="Run a senior center, want to volunteer, or have a question? Send us a message — we read every one."
       />
 
-      <section className="container-wide py-16 grid gap-12 lg:grid-cols-[1fr_1.2fr]">
+      <section className="reveal container-wide py-16 grid gap-12 lg:grid-cols-[1fr_1.2fr]">
         {/* Contact info */}
         <div>
           <h2 className="text-2xl font-bold mb-6">Reach us directly</h2>
@@ -89,21 +88,18 @@ export default function Contact() {
             <p className="font-semibold mb-3">Follow along</p>
             <div className="flex gap-3">
               <a
-                href="#"
-                aria-label="TechBridge SD on Facebook"
-                className="p-3 rounded-lg bg-secondary text-primary hover:bg-accent hover:text-white transition-colors"
-              >
-                <Facebook size={20} />
-              </a>
-              <a
-                href="#"
+                href="https://www.instagram.com/techbridgesd"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="TechBridge SD on Instagram"
                 className="p-3 rounded-lg bg-secondary text-primary hover:bg-accent hover:text-white transition-colors"
               >
                 <Instagram size={20} />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/tech-bridge-sd-985242415"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="TechBridge SD on LinkedIn"
                 className="p-3 rounded-lg bg-secondary text-primary hover:bg-accent hover:text-white transition-colors"
               >

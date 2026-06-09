@@ -36,7 +36,7 @@ export default function About() {
       />
 
       {/* Problem */}
-      <section className="container-tight py-16">
+      <section className="reveal container-tight py-16">
         <div className="flex items-center gap-3 mb-4">
           <span className="grid place-items-center h-11 w-11 rounded-lg bg-destructive/10 text-destructive">
             <AlertTriangle size={22} />
@@ -64,7 +64,7 @@ export default function About() {
 
       {/* Why it matters */}
       <section className="bg-secondary/50 py-16">
-        <div className="container-tight">
+        <div className="reveal container-tight">
           <div className="flex items-center gap-3 mb-4">
             <span className="grid place-items-center h-11 w-11 rounded-lg bg-accent/10 text-accent">
               <HeartHandshake size={22} />
@@ -89,7 +89,7 @@ export default function About() {
       </section>
 
       {/* Goals */}
-      <section className="container-tight py-16">
+      <section className="reveal container-tight py-16">
         <div className="flex items-center gap-3 mb-6">
           <span className="grid place-items-center h-11 w-11 rounded-lg bg-primary/10 text-primary">
             <Target size={22} />
@@ -111,7 +111,7 @@ export default function About() {
 
       {/* How the idea developed */}
       <section className="bg-secondary/50 py-16">
-        <div className="container-tight">
+        <div className="reveal container-tight">
           <div className="flex items-center gap-3 mb-4">
             <span className="grid place-items-center h-11 w-11 rounded-lg bg-gold/20 text-gold-foreground">
               <Lightbulb size={22} />
@@ -139,7 +139,7 @@ export default function About() {
       </section>
 
       {/* Future plans */}
-      <section className="container-tight py-16">
+      <section className="reveal container-tight py-16">
         <div className="flex items-center gap-3 mb-6">
           <span className="grid place-items-center h-11 w-11 rounded-lg bg-accent/10 text-accent">
             <Rocket size={22} />

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail, MapPin, Facebook, Instagram, Linkedin } from "lucide-react";
+import { Mail, MapPin, Instagram, Linkedin } from "lucide-react";
 import { Logo } from "@/components/Logo";
 
 const nav = [
@@ -61,13 +61,22 @@ export function Footer() {
             </li>
           </ul>
           <div className="mt-4 flex gap-3">
-            <a href="#" aria-label="TechBridge SD on Facebook" className="p-2 rounded-md bg-white/10 hover:bg-white/20 transition-colors">
-              <Facebook size={18} />
-            </a>
-            <a href="#" aria-label="TechBridge SD on Instagram" className="p-2 rounded-md bg-white/10 hover:bg-white/20 transition-colors">
+            <a
+              href="https://www.instagram.com/techbridgesd"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="TechBridge SD on Instagram"
+              className="p-2 rounded-md bg-white/10 hover:bg-white/20 transition-colors"
+            >
               <Instagram size={18} />
             </a>
-            <a href="#" aria-label="TechBridge SD on LinkedIn" className="p-2 rounded-md bg-white/10 hover:bg-white/20 transition-colors">
+            <a
+              href="https://www.linkedin.com/in/tech-bridge-sd-985242415"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="TechBridge SD on LinkedIn"
+              className="p-2 rounded-md bg-white/10 hover:bg-white/20 transition-colors"
+            >
               <Linkedin size={18} />
             </a>
           </div>

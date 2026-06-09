@@ -88,4 +88,33 @@
   .container-wide {
     @apply mx-auto w-full max-w-6xl px-6;
   }
+
+  /* Scroll-reveal: elements start hidden and gently fade + rise into view when
+     they enter the viewport. The `.is-visible` class is added by ScrollReveal. */
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    filter: blur(3px);
+    transition:
+      opacity 0.7s ease,
+      transform 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+      filter 0.7s ease;
+    transition-delay: var(--reveal-delay, 0ms);
+    will-change: opacity, transform;
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+
+  /* Respect users who prefer reduced motion. */
+  @media (prefers-reduced-motion: reduce) {
+    .reveal {
+      opacity: 1;
+      transform: none;
+      filter: none;
+      transition: none;
+    }
+  }
 }

@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { ScrollToTop } from "@/components/ScrollToTop";
+import { ScrollReveal } from "@/components/ScrollReveal";
 import Home from "@/pages/Home";
 import About from "@/pages/About";
 import Research from "@/pages/Research";
@@ -14,6 +15,7 @@ export default function App() {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <ScrollToTop />
+      <ScrollReveal />
       <Navbar />
       <main className="flex-1">
         <Routes>

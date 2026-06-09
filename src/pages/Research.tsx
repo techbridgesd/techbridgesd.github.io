@@ -41,7 +41,7 @@ export default function Research() {
       />
 
       {/* Key facts */}
-      <section className="container-wide py-16">
+      <section className="reveal container-wide py-16">
         <h2 className="text-2xl md:text-3xl font-bold mb-8">Key facts at a glance</h2>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {[
@@ -78,7 +78,7 @@ export default function Research() {
 
       {/* Charts */}
       <section className="bg-secondary/50 py-16">
-        <div className="container-wide grid gap-12 lg:grid-cols-2 items-center">
+        <div className="reveal container-wide grid gap-12 lg:grid-cols-2 items-center">
           <div className="rounded-2xl bg-card border border-border p-7 shadow-sm">
             <h3 className="text-xl font-bold mb-1">
               Fraud losses among adults 60+ are rising fast
@@ -118,7 +118,7 @@ export default function Research() {
       </section>
 
       {/* Findings */}
-      <section className="container-tight py-16">
+      <section className="reveal container-tight py-16">
         <h2 className="text-2xl md:text-3xl font-bold mb-6">
           What the research tells us
         </h2>
@@ -162,7 +162,7 @@ export default function Research() {
 
       {/* How research supports the project */}
       <section className="bg-primary text-white py-16">
-        <div className="container-tight">
+        <div className="reveal container-tight">
           <Quote className="text-accent mb-4" size={36} />
           <h2 className="!text-white text-2xl md:text-3xl font-bold mb-5">
             How this research shapes our project
@@ -187,7 +187,7 @@ export default function Research() {
       </section>
 
       {/* Sources */}
-      <section className="container-tight py-16">
+      <section className="reveal container-tight py-16">
         <h2 className="text-2xl md:text-3xl font-bold mb-2">Sources cited</h2>
         <p className="text-sm text-muted-foreground mb-6">
           Figures reflect the most recent reports available at the time of

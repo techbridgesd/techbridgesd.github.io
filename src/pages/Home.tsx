@@ -107,7 +107,7 @@ export default function Home() {
       </section>
 
       {/* ===================== MISSION ===================== */}
-      <section className="container-tight py-20 text-center">
+      <section className="reveal container-tight py-20 text-center">
         <p className="text-accent text-sm font-semibold uppercase tracking-[0.2em] mb-4">
           Our mission
         </p>
@@ -119,7 +119,7 @@ export default function Home() {
 
       {/* ===================== OVERVIEW ===================== */}
       <section className="bg-secondary/50 py-20">
-        <div className="container-wide grid gap-12 md:grid-cols-2 items-center">
+        <div className="reveal container-wide grid gap-12 md:grid-cols-2 items-center">
           <div>
             <h2 className="text-2xl md:text-3xl font-bold mb-5">
               What is TechBridge SD?
@@ -188,7 +188,7 @@ export default function Home() {
       </section>
 
       {/* ===================== QUICK STATS (placeholder) ===================== */}
-      <section className="container-wide py-20">
+      <section className="reveal container-wide py-20">
         <div className="text-center mb-10">
           <h2 className="text-2xl md:text-3xl font-bold">By the numbers</h2>
           <p className="text-muted-foreground mt-2">
@@ -220,7 +220,7 @@ export default function Home() {
 
       {/* ===================== CTA BAND ===================== */}
       <section className="bg-primary text-white">
-        <div className="container-wide py-16 text-center">
+        <div className="reveal container-wide py-16 text-center">
           <h2 className="!text-white text-3xl md:text-4xl font-bold mb-4">
             Want to host us, volunteer, or learn more?
           </h2>

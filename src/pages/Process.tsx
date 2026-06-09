@@ -77,7 +77,7 @@ export default function Process() {
       />
 
       {/* Timeline */}
-      <section className="container-tight py-16">
+      <section className="reveal container-tight py-16">
         <h2 className="text-2xl md:text-3xl font-bold mb-10">
           Timeline of development
         </h2>
@@ -104,7 +104,7 @@ export default function Process() {
 
       {/* Photo / diagram placeholders */}
       <section className="bg-secondary/50 py-16">
-        <div className="container-wide">
+        <div className="reveal container-wide">
           <h2 className="text-2xl md:text-3xl font-bold mb-2">
             Photos &amp; diagrams
           </h2>
@@ -138,7 +138,7 @@ export default function Process() {
       </section>
 
       {/* Challenges & solutions */}
-      <section className="container-wide py-16">
+      <section className="reveal container-wide py-16">
         <h2 className="text-2xl md:text-3xl font-bold mb-8">
           Challenges &amp; solutions
         </h2>

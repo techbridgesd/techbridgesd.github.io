@@ -30,7 +30,7 @@ export default function Results() {
       />
 
       {/* Results obtained */}
-      <section className="container-wide py-16">
+      <section className="reveal container-wide py-16">
         <div className="flex items-center gap-3 mb-3">
           <span className="grid place-items-center h-11 w-11 rounded-lg bg-accent/10 text-accent">
             <GraduationCap size={22} />
@@ -61,7 +61,7 @@ export default function Results() {
 
       {/* Before / after */}
       <section className="bg-secondary/50 py-16">
-        <div className="container-wide">
+        <div className="reveal container-wide">
           <div className="flex items-center gap-3 mb-3">
             <span className="grid place-items-center h-11 w-11 rounded-lg bg-primary/10 text-primary">
               <TrendingUp size={22} />
@@ -92,7 +92,7 @@ export default function Results() {
       </section>
 
       {/* Data collected */}
-      <section className="container-tight py-16">
+      <section className="reveal container-tight py-16">
         <div className="flex items-center gap-3 mb-4">
           <span className="grid place-items-center h-11 w-11 rounded-lg bg-accent/10 text-accent">
             <ClipboardList size={22} />
@@ -120,7 +120,7 @@ export default function Results() {
 
       {/* Lessons learned */}
       <section className="bg-secondary/50 py-16">
-        <div className="container-wide grid gap-10 md:grid-cols-2">
+        <div className="reveal container-wide grid gap-10 md:grid-cols-2">
           <div>
             <h2 className="text-2xl md:text-3xl font-bold mb-6">Lessons learned</h2>
             <ul className="space-y-3">
@@ -148,7 +148,7 @@ export default function Results() {
         </div>
       </section>
 
-      <section className="container-wide py-16 text-center">
+      <section className="reveal container-wide py-16 text-center">
         <h2 className="text-2xl md:text-3xl font-bold mb-4">
           Help us turn these placeholders into real impact
         </h2>
